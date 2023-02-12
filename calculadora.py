@@ -36,11 +36,11 @@ class App():
 
          
       # Button
-        self.btn1 = Button(text='Calcular',command=self.soma)
+        self.btn1 = Button(text='Calcular',command=self.imc)
         self.btn1.place(relx=0.65, rely=0.4)
         
 
-    def soma(self):
+    def imc(self):
         num1 = self.numero1.get()
         num2 = self.numero2.get()
         resul = num1 / (num2**2)
