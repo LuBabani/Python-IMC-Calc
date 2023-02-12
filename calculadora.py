@@ -28,7 +28,7 @@ class App():
         self.lbl2_enty.place(relx=0.45, rely=0.25)
 
       # Result IMC
-        self.lbl3 = Label(text='Resultado', background="pink")
+        self.lbl3 = Label(text='Resultado do IMC é:', background="pink")
         self.lbl3.place(relx=0.15, rely=0.6)
         self.resultado = StringVar()
         self.l_resultado = Label(textvariable=self.resultado, font=("Roboto", '8'))
